@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-public static GameManager Instance {  get; private set; }
-    private bool isPaused;
+    public static GameManager Instance { get; private set; }
+    private bool isPaused = false;
 
     private void Awake()
     {
@@ -12,11 +12,19 @@ public static GameManager Instance {  get; private set; }
         {
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
-            Debug.Log("Game manager se intancio");
+            Debug.Log("Game manager se intancio :" + isPaused);
         }
         else
         {
             Destroy(this.gameObject);
+        }
+    }
+
+    private void Update()
+    {
+        if (isPaused)
+        {
+            Debug.Log("En este momento se convirtio a true");
         }
     }
     // nameScene: Nombre de la escena
@@ -27,7 +35,7 @@ public static GameManager Instance {  get; private set; }
 
     public void ReloadCurrentScene()
     {
-    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     // Carga la siguiente escena por index
@@ -43,15 +51,20 @@ public static GameManager Instance {  get; private set; }
         }
         else
         {
-            Debug.LogWarning("No hay más escenas. ¡Has completado el juego!");
+            Debug.LogWarning("No hay mï¿½s escenas. ï¿½Has completado el juego!");
             ReloadCurrentScene(); // Recargar la primera escena
         }
     }
 
     public void PauseGame()
     {
-        isPaused = !isPaused;
-        Time.timeScale = isPaused ? 0 : 1;
+        Debug.Log("Pausado");
+        Time.timeScale = 0;
+    }
+    public void ReloadGame()
+    {
+        Debug.Log("Despausado");
+        Time.timeScale = 1;
     }
     public void OpenOptionsMenu()
     {

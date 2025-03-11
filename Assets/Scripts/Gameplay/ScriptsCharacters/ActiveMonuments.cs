@@ -4,16 +4,22 @@ using UnityEngine.UI;
 
 public class ActiveMonuments : MonoBehaviour
 {
-    public RawImage bruma;
-    private float opacidadPanel = 0.1f;
+    [Header("Sprites")]
+    [SerializeField] RawImage fog;
+    [SerializeField] Sprite deactivateSprite;
+    private float fogOpacity = 0.1f;
 
-    private Collider2D triggerZone;
+    private Collider2D activationZone;
+    private SpriteRenderer spriteRenderer;
     private bool playerInTrigger = false;
+
 
     void Start()
     {
-        triggerZone = GetComponent<Collider2D>();
+        activationZone = GetComponent<Collider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -34,16 +40,21 @@ public class ActiveMonuments : MonoBehaviour
     {
         if (playerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
-            SetTextOpacity(opacidadPanel);
-            triggerZone.enabled = false;
+            SetFogOpacity(fogOpacity);
+            activationZone.enabled = false;
+            spriteRenderer.sprite = deactivateSprite;
+            MonumentUIController.Instance.MomumentActivated();
         }
     }
 
-    private void SetTextOpacity(float alpha)
+    private void SetFogOpacity(float alpha)
     {
-        Color newColor = bruma.color;
-        float currentAlpha = newColor.a;
-        newColor.a = currentAlpha - alpha;
-        bruma.color = newColor;
+
+        Color newColor = fog.color;
+        newColor.a = Mathf.Clamp01(newColor.a - alpha);
+        fog.color = newColor;
+
+
     }
+
 }

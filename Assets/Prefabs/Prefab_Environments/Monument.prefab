@@ -147,4 +147,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f337506d074ca7f4691736030313b43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bruma: {fileID: 0}
+  fog: {fileID: 0}
+  deactivateSprite: {fileID: -1291683952, guid: 77db3f93ab893fe4d9b9baf5a8dfc4db, type: 3}
