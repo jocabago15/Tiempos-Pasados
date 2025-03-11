@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      _Tiempos  Pasados_ShortAnimation_test_0: -2015296587028676804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
