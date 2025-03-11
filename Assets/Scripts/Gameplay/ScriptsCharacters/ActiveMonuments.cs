@@ -25,6 +25,7 @@ public class ActiveMonuments : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInTrigger = true;
+            transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 
@@ -33,6 +34,7 @@ public class ActiveMonuments : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInTrigger = false;
+            transform.GetChild(0).gameObject.SetActive(false);
         }
     }
 
