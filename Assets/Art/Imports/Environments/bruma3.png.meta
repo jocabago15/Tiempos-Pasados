@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7633646be03fbf541a8a6affd2687923
+guid: a1ec1e63ec3c95e4cbd83d6dbbca6014
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5130558894233647175
-    second: Fondo_0
+      213: 8528388604680065650
+    second: bruma3 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fondo_0
+      name: bruma3 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b78bf95ed79cc8b0800000000000000
-      internalID: -5130558894233647175
+      spriteID: 272d178204cea5670800000000000000
+      internalID: 8528388604680065650
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fondo_0: -5130558894233647175
+      bruma3 1_0: 8528388604680065650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
