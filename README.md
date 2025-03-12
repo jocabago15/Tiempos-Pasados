@@ -57,6 +57,13 @@ Este juego explora el impacto emocional del auto-reproche y la importancia del p
 - 🎭 Illustrator
 
 ---
+## 🎮 JUGAR EN ITCH.IO
+
+<a href="https://josedavdmast3r.itch.io/tiempos-pasados">
+  <img src="Assets/DataGameTiemposPasados/ItchioBlanco.png" alt="Jugar en Itch.io" width="150">
+</a>
+
+---
 
 ## 🖼️ IMÁGENES DEL JUEGO
 
@@ -75,3 +82,4 @@ Este juego explora el impacto emocional del auto-reproche y la importancia del p
 | **⏸️ Pausa** | [![Pausa](Assets/DataGameTiemposPasados/Pausa.png)](Assets/DataGameTiemposPasados/Pausa.png) |
 | **📜 Créditos** | [![Créditos](Assets/DataGameTiemposPasados/Creditos.png)](Assets/DataGameTiemposPasados/Creditos.png) |
 | **🗿 Monumentos** | [![Monumentos](Assets/DataGameTiemposPasados/Monumentos.png)](Assets/DataGameTiemposPasados/Monumentos.png) |
+
