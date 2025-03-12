@@ -22,5 +22,9 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = movement * moveSpeed;
         animator.SetFloat(horizontal, movement.x);
         animator.SetFloat(vertical, movement.y);
+        if (rb.linearVelocity.magnitude > 4f)
+        {
+            AudioManager.Instance.PlayFX("CharactersSound/steps", 0.15f);
+        }
     }
 }

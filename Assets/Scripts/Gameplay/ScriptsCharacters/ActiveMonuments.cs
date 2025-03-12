@@ -46,7 +46,7 @@ public class ActiveMonuments : MonoBehaviour
             activationZone.enabled = false;
             spriteRenderer.sprite = deactivateSprite;
             MonumentUIController.Instance.MomumentActivated();
-            AudioManager.Instance.PlayFX("EnvironmentsSound/chorusActivation");
+            AudioManager.Instance.PlayFX("EnvironmentsSound/chorusActivation", 0.5f);
         }
     }
 

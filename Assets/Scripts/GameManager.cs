@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    private bool isPaused = false;
+    private bool isPaused;
 
     private void Awake()
     {
@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
-            Debug.Log("Game manager se intancio :" + isPaused);
         }
         else
         {
@@ -20,13 +19,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (isPaused)
-        {
-            Debug.Log("En este momento se convirtio a true");
-        }
-    }
     // nameScene: Nombre de la escena
     public void LoadSceneByName(string nameScene)
     {
@@ -58,13 +50,13 @@ public class GameManager : MonoBehaviour
 
     public void PauseGame()
     {
-        Debug.Log("Pausado");
         Time.timeScale = 0;
+        isPaused = true;
     }
     public void ReloadGame()
     {
-        Debug.Log("Despausado");
         Time.timeScale = 1;
+        isPaused = false;
     }
     public void OpenOptionsMenu()
     {

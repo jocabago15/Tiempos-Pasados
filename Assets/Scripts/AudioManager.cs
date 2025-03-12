@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
 
     private AudioSource fxSource;
     private AudioSource musicSource;
+    private AudioClip lastPlayedClip;
 
     [SerializeField] public AudioMixer audioMixer;
 
@@ -36,7 +37,7 @@ public class AudioManager : MonoBehaviour
 
             // Asigna el canal "Music" al musicSource
             musicSource.outputAudioMixerGroup = audioMixer.FindMatchingGroups("Music")[0];
-            
+
             // Asigna el canal "General" al musicSource
             //musicSource.outputAudioMixerGroup = audioMixer.FindMatchingGroups("Master")[0];
         }
@@ -46,22 +47,26 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Método para reproducir efectos de sonido
-    public void PlayFX(string clipName)
+    // Mï¿½todo para reproducir efectos de sonido
+    public void PlayFX(string clipName, float volume = 1.0f)
     {
-        string path = $"Audio/Fx/{clipName}"; // Ruta dentro de la carpeta Resources
-        AudioClip clip = Resources.Load<AudioClip>(path); // Carga el archivo .wav
+        string path = $"Audio/Fx/{clipName}";
+        AudioClip clip = Resources.Load<AudioClip>(path);
+
         if (clip != null)
         {
-            fxSource.PlayOneShot(clip);
+            if (fxSource.isPlaying && lastPlayedClip == clip) return;
+
+            lastPlayedClip = clip;
+            fxSource.PlayOneShot(clip, volume);
         }
         else
         {
-            Debug.LogWarning($"No se encontró el archivo de audio: {path}");
+            Debug.LogWarning($"No se encontrÃ³ el archivo de audio: {path}");
         }
     }
-    
-    // Método para reproducir música
+
+    // Mï¿½todo para reproducir mï¿½sica
     public void PlayMusic(string clipName, bool loop = true)
     {
         string path = $"Audio/Music/{clipName}"; // Ruta dentro de la carpeta Resources
@@ -74,11 +79,11 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning($"No se encontró el archivo de audio: {path}");
+            Debug.LogWarning($"No se encontrï¿½ el archivo de audio: {path}");
         }
     }
 
-    // Método para detener la música
+    // Mï¿½todo para detener la mï¿½sica
     public void StopMusic()
     {
         if (musicSource.isPlaying)
@@ -87,5 +92,9 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public bool IsFXPlaying()
+    {
+        return fxSource.isPlaying;
+    }
 
 }
