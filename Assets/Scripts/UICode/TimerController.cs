@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class TimerController : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
-    private float elapsedTime = 20f;
+    private float elapsedTime = 60f;
     private bool isRunning = true;
 
     public UnityEvent timeOver = new();
