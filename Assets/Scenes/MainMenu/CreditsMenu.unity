@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 225.36}
-  m_SizeDelta: {x: 856.9666, y: 629.2715}
+  m_AnchoredPosition: {x: 28, y: 234}
+  m_SizeDelta: {x: 946.5688, y: 663.4055}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050830719
 MonoBehaviour:
@@ -1466,7 +1466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000045776, y: 0.000053406}
+  m_AnchoredPosition: {x: 0.000045776, y: -0.000020830646}
   m_SizeDelta: {x: -0.000061035, y: 612.27}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1789884286
@@ -1503,7 +1503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.129089, y: 6.08609}
+  m_AnchoredPosition: {x: 0, y: 0.000030518}
   m_SizeDelta: {x: 683.6142, y: 457.9338}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789884288
@@ -1526,7 +1526,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Creditos. \n\nJhonatan\nCarolina.\nJhohan\nJose"
+  m_text: " Creditos. \n\nJhonatan  Stibe Garzon/ rol aqu\xED\nJhoana Carolina Ballen  
+    / rol aqu\xED\nJhohan Andres d\xEDaz  / rol aqu\xED\nJose David Carranza / rol
+    aqu\xED"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5cff45580ca5c71448caa9c3f79dbc66, type: 2}
   m_sharedMaterial: {fileID: 901890667322721915, guid: 5cff45580ca5c71448caa9c3f79dbc66, type: 2}
@@ -1553,8 +1555,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46.2
-  m_fontSizeBase: 46.2
+  m_fontSize: 51.42
+  m_fontSizeBase: 51.42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
