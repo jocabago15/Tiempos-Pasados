@@ -361,6 +361,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1407758250}
   - {fileID: 2006325761}
   m_Father: {fileID: 1029139273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -465,7 +466,7 @@ GameObject:
   - component: {fileID: 254047634}
   - component: {fileID: 254047633}
   m_Layer: 5
-  m_Name: MusicText (1)
+  m_Name: MusicText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 48}
+  m_AnchoredPosition: {x: -0.000011444, y: 35}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254047633
@@ -661,8 +662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 23.8}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -0, y: 33.6767}
+  m_SizeDelta: {x: 168.42, y: 30.2467}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301448083
 MonoBehaviour:
@@ -1341,6 +1342,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1159742049}
   - {fileID: 501206836}
   - {fileID: 1792659951}
   - {fileID: 292011120}
@@ -1559,11 +1561,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 301448082}
   - {fileID: 60371322}
   - {fileID: 225674665}
   - {fileID: 15234394}
-  - {fileID: 301448082}
-  - {fileID: 1407758250}
   m_Father: {fileID: 1029139273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1782,7 +1783,7 @@ GameObject:
   - component: {fileID: 1159742051}
   - component: {fileID: 1159742050}
   m_Layer: 5
-  m_Name: MusicText
+  m_Name: GeneralVolumeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1795,16 +1796,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159742048}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1383550167}
+  m_Father: {fileID: 838310948}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: 140}
+  m_AnchoredPosition: {x: 27, y: 42.899986}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1159742050
@@ -2085,11 +2086,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 254047632}
   - {fileID: 1977770207}
   - {fileID: 1596624924}
   - {fileID: 515322021}
-  - {fileID: 1159742049}
-  - {fileID: 254047632}
   m_Father: {fileID: 1029139273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2160,7 +2160,7 @@ GameObject:
   - component: {fileID: 1407758252}
   - component: {fileID: 1407758251}
   m_Layer: 5
-  m_Name: Label
+  m_Name: LabelTextMute
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2178,11 +2178,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1075367663}
+  m_Father: {fileID: 125098290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 3.4, y: -57.3}
+  m_AnchoredPosition: {x: -1, y: 27}
   m_SizeDelta: {x: 130.9929, y: 26.2063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1407758251
@@ -2564,7 +2564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -80, y: -15}
+  m_AnchoredPosition: {x: -103, y: -28}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828162611
