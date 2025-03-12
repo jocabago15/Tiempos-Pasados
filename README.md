@@ -57,6 +57,11 @@ Este juego explora el impacto emocional del auto-reproche y la importancia del p
 - 🎭 Illustrator
 
 ---
+## 📄 GAME DESIGN DOCUMENT  
+[GDD](https://drive.google.com/file/d/1csqn4PtJezpQTh4gc3p8p8kOnM3Fdi5a/view)  
+---
+
+
 ## 🎮 JUGAR EN ITCH.IO
 
 <a href="https://josedavdmast3r.itch.io/tiempos-pasados">

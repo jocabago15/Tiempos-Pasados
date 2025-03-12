@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ItchioBlanco_0: 9132186364725638478
+      ItchioBlanco_1: 7852329150379427941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
