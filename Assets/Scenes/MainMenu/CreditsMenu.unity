@@ -659,15 +659,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3886792, g: 0.3886792, b: 0.3886792, a: 1}
+  m_Color: {r: 1, g: 0.9669811, b: 0.9669811, a: 0.89411765}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -130235527748131965, guid: eff3057cf762f904cb117f7b8fd1064f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: 0, y: 225.36}
+  m_SizeDelta: {x: 856.9666, y: 629.2715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050830719
 MonoBehaviour:
@@ -1147,15 +1147,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 5740453210667488706, guid: 5aa6d62fd2b330b45ad0f2870d700211, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1466,8 +1466,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 300}
+  m_AnchoredPosition: {x: 0.000045776, y: 0.000053406}
+  m_SizeDelta: {x: -0.000061035, y: 612.27}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1789884286
 GameObject:
@@ -1503,8 +1503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.09185791, y: 58.50002}
-  m_SizeDelta: {x: 166.3, y: 130}
+  m_AnchoredPosition: {x: 9.129089, y: 6.08609}
+  m_SizeDelta: {x: 683.6142, y: 457.9338}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789884288
 MonoBehaviour:
@@ -1526,20 +1526,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos
-    de texto. Lorem Ipsum ha\n\n\n sido el texto de relleno est\xE1ndar de las industrias
-    desde el a\xF1o 1500, cuando un impresor (N. del T.\n\n \npersona que se dedica
-    a la imprenta) desconocido us\xF3 una galer\xEDa de textos y los mezcl\xF3 de
-    tal\n\n\n manera que logr\xF3 hacer un libro de textos especimen. No s\xF3lo
-    sobrevivi\xF3 500 a\xF1os, sino que tambien ingres\xF3 como texto de relleno
-    en \n\n\ndocumentos electr\xF3nicos, quedando esencialmente igual al original.
-    Fue popularizado en los 60s con la creaci\xF3n de las hojas \"Letraset\", las
-    cuales contenian pasajes de Lorem Ipsum, y m\xE1s\n\n\n recientemente con software
-    de autoedici\xF3n, como por ejemplo Aldus PageMaker, el cual incluye versiones
-    de Lorem Ipsum."
+  m_text: " Creditos. \n\nJhonatan\nCarolina.\nJhohan\nJose"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5cff45580ca5c71448caa9c3f79dbc66, type: 2}
+  m_sharedMaterial: {fileID: 901890667322721915, guid: 5cff45580ca5c71448caa9c3f79dbc66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1563,14 +1553,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 7.4
-  m_fontSizeBase: 7.4
+  m_fontSize: 46.2
+  m_fontSizeBase: 46.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1677,8 +1667,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 981510959}
   m_HandleRect: {fileID: 981510957}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.61
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
