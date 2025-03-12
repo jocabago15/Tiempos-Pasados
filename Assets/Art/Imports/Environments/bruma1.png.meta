@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bruma1_0: 4560233074205457521
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
