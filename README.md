@@ -76,7 +76,6 @@ Este juego explora el impacto emocional del auto-reproche y la importancia del p
 |------------|------------|
 | **🎭 Personaje** | [![Jugador](Assets/DataGameTiemposPasados/Player.png)](Assets/DataGameTiemposPasados/Player.png) |
 | **🎮 Banner** | [![Banner](Assets/DataGameTiemposPasados/TiemposPasadosBaner.png)](Assets/DataGameTiemposPasados/TiemposPasadosBaner.png) |
-| **🎨 Portada** | [![Portada](Assets/DataGameTiemposPasados/TiemposPasadosInterface.png)](Assets/DataGameTiemposPasados/TiemposPasadosInterface.png) |
 | **🚀 Start Game** | [![Start](Assets/DataGameTiemposPasados/StarGame.png)](Assets/DataGameTiemposPasados/StarGame.png) |
 | **📖 Instrucciones** | [![Tutorial](Assets/DataGameTiemposPasados/Instruciones.png)](Assets/DataGameTiemposPasados/Instruciones.png) |
 | **🎚️ Ajustes de Volumen** | [![Ajustes](Assets/DataGameTiemposPasados/AjustesVolume.png)](Assets/DataGameTiemposPasados/AjustesVolume.png) |
@@ -87,4 +86,3 @@ Este juego explora el impacto emocional del auto-reproche y la importancia del p
 | **⏸️ Pausa** | [![Pausa](Assets/DataGameTiemposPasados/Pausa.png)](Assets/DataGameTiemposPasados/Pausa.png) |
 | **📜 Créditos** | [![Créditos](Assets/DataGameTiemposPasados/Creditos.png)](Assets/DataGameTiemposPasados/Creditos.png) |
 | **🗿 Monumentos** | [![Monumentos](Assets/DataGameTiemposPasados/Monumentos.png)](Assets/DataGameTiemposPasados/Monumentos.png) |
-
